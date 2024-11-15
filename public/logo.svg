@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160">
+  <!-- Background shapes -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4F46E5"/>
+      <stop offset="100%" style="stop-color:#6366F1"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1E1B4B"/>
+      <stop offset="100%" style="stop-color:#312E81"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Modern abstract shape -->
+  <path d="M40 30 L120 30 Q130 30 130 40 L130 120 Q130 130 120 130 L40 130 Q30 130 30 120 L30 40 Q30 30 40 30" 
+        fill="url(#bgGradient)"/>
+  
+  <!-- Abstract interview icon -->
+  <circle cx="80" cy="65" r="15" fill="white"/>
+  <path d="M70 80 Q80 100 90 80 L90 100 H70 Z" fill="white"/>
+  <circle cx="80" cy="95" r="3" fill="#4F46E5"/>
+  
+  <!-- Company name -->
+  <text x="160" y="85" font-family="Arial, sans-serif" font-size="48" font-weight="900" fill="url(#textGradient)" letter-spacing="2">
+    MOCKY
+  </text>
+  <text x="160" y="115" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#6366F1" letter-spacing="1">
+    InterView
+  </text>
+
+  <!-- Decorative elements -->
+  <circle cx="540" cy="80" r="20" fill="none" stroke="#4F46E5" stroke-width="2"/>
+  <circle cx="540" cy="80" r="10" fill="#4F46E5" opacity="0.6"/>
+  
+  <!-- Connection lines -->
+  <line x1="490" y1="60" x2="520" y2="80" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4 2"/>
+  <line x1="490" y1="100" x2="520" y2="80" stroke="#6366F1" stroke-width="1.5" stroke-dasharray="4 2"/>
+  
+  <!-- Abstract dots -->
+  <circle cx="490" cy="60" r="3" fill="#4F46E5"/>
+  <circle cx="490" cy="100" r="3" fill="#4F46E5"/>
+</svg>
